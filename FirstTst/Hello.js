@@ -1,5 +1,8 @@
-var largeur = prompt("Largeur : ");
-var longueur = prompt("Longeur : ");
+function calcul()
+{
+	var largeur = prompt("Largeur : ");
+	var longueur = prompt("Longeur : ");
 
-var result = parseInt(largeur * longueur);
-alert(result);
+	var result = parseInt(largeur * longueur);
+	alert(result);
+}

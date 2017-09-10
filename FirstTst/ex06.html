@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>ex06</title>
+	<script type="text/javascript">
+		function display_day()
+		{
+			var d = new Date;
+			var n = d.getDay();
+
+			switch (n)
+			{
+				case 0:
+					day = "Sunday";
+					break;
+				case 1:
+					day = "Monday";
+					break;
+				case 2:
+					day = "Thuesday";
+					break;
+				case 3:
+					day = "Wednesday";
+					break;
+				case 4:
+					day = "Thursday";
+					break;
+				case 5:
+					day = "Friday";
+					break;
+				case 6:
+					day = "Saturday";
+					break;
+			}
+			alert(day);
+		}
+	</script>
+</head>
+<body>
+	<h1>CLIC</h1>
+	<p><button onclick="display_day()">clic ici frr</button></p>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset ="UTF-8">
+	<title>ex05</title>
+	<script type="text/javascript">
+		var tab = [-2, 1, 4];
+		
+		function soustract(x)
+		{
+			var result = x - 2;
+
+			if (x == undefined)
+				return "error";
+			else if (result >= 0)
+				return result;
+			else if(result < 0)
+				return "negatif";
+		}
+
+		function display()
+		{
+			alert(soustract(tab[0]));
+			alert(soustract(tab[tab.length - 1]));
+		}
+	</script>
+</head>
+<body>
+	<h1>FAUT CLIQUER FRR</h1>
+	<p><button onclick="display()">clic ici mdr</button></p>
+</body>
+</html>

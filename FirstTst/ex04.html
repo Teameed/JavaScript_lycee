@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>ex04</title>
+	<script type="text/javascript">
+		function boucle()
+		{
+			var tab = [5, 5, 5];
+
+			for (i = 0; i < tab.length; i++)
+			{
+				tab[i] = i * i;
+			}
+			alert(tab);
+		}
+
+		function boucle2()
+		{
+			var tab = [];
+			tab.length = parseInt(prompt("l :"));
+
+			for (i = 0; i < tab.length; i++)
+			{
+				tab[i] = i * i;
+			}
+			alert(tab);
+		}
+	</script>
+</head>
+<body>
+	<h1>Azy test</h1>
+	<p><button onclick = "boucle()">first_clic</button> <button onclick="boucle2()">second_clic</button></p>
+</body>
+</html>
